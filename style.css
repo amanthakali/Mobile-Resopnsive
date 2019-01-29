@@ -140,7 +140,116 @@ p{
 .portfolio{
   display: inline-block;
 }
+.image{
+  width: 96%;
+    height: 100%;
+    padding-left: 0;  
+    padding-right: 0;
+}
 
+.image1 { 
+  
+  position: relative;width: 33%;
+  height: auto;
+  padding-left:0;
+  padding-right: 0;
+  
+  display: inline-block;
+  float: left;
+  padding-bottom: 40px;
+}
+
+.text-box1{
+
+  text-align: center;
+  bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 96%;
+  right:0;
+  left:0;
+  position: absolute;
+  background-color: #4aaaa5;
+  color: white;
+
+  
+}
+
+.image2{
+  position: relative;width: 33%;
+  height: auto;
+  padding-left:0;
+  padding-right: 0;
+  
+  display: inline-block;
+  float: left;
+  padding-bottom: 40px;
+}
+.text-box2{
+  
+  text-align: center;
+  bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 96%;
+  right:0;
+  left:0;
+  position: absolute;
+  background-color: #4aaaa5;
+  color: white;
+ 
+}
+
+.image3{
+  position: relative;width: 33%;
+  height: auto;
+  padding-left:0;
+  padding-right: 0;
+  
+  display: inline-block;
+  float: left;
+  padding-bottom: 40px;
+}
+.text-box3{
+  
+  text-align: center;
+  bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 96%;
+  right:0;
+  left:0;
+  position: absolute;
+  background-color:#4aaaa5;
+  color: white;
+ 
+}
+
+
+.image4{
+  position: relative;width: 33%;
+  height: auto;
+  padding-left:0;
+  padding-right: 0;
+  
+  display: inline-block;
+  float: left;
+  padding-bottom: 40px;
+
+}
+.text-box4{
+  
+  text-align: center;
+  bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 96%;
+  right:0;
+  left:0;
+  position: absolute;
+  background-color:#4aaaa5;
+  color: white;
+}
 
 
 footer{
@@ -199,109 +308,9 @@ input[type=submit]{
 }
 
 
-.text-box1{
-
-  text-align: center;
-  bottom: 30px;
-  padding-left: 0;
-  padding-right: 0;
-  width: 96%;
-  right:0;
-  left:0;
-  position: absolute;
-  background-color: #4aaaa5;
-  color: white;
-
- 
-}
-
-.text-box2{
-  
-  text-align: center;
-  bottom: 30px;
-  padding-left: 0;
-  padding-right: 0;
-  width: 96%;
-  right:0;
-  left:0;
-  position: absolute;
-  background-color: #4aaaa5;
-  color: white;
- 
-}
-
-.text-box3{
-  
-  text-align: center;
-  bottom: 30px;
-  padding-left: 0;
-  padding-right: 0;
-  width: 96%;
-  right:0;
-  left:0;
-  position: absolute;
-  background-color:#4aaaa5;
-  color: white;
- 
-}
-
-.text-box4{
-  
-  text-align: center;
-  bottom: 30px;
-  padding-left: 0;
-  padding-right: 0;
-  width: 96%;
-  right:0;
-  left:0;
-  position: absolute;
-  background-color:#4aaaa5;
-  color: white;
-}
 
 
-.image1{
-  position: relative;
-    width: 250px;
-    height: 200px;
-  
-    float: left;
-    padding-right: 0px;
-    padding-left: 0;
-    padding-bottom: 40px;
-    
 
-}
-.image2{
-  position: relative;
-    width: 250px;
-    height: 200px;
-
-    float: left;
-    padding: 20px;
-    padding-left: 0;
-    padding-bottom: 40px;
-}
-.image3{
-  position: relative;
-    width: 250px;
-    height: 200px;
-    
-    float: left;
-    padding: 20px;
-    padding-left: 0;
-    padding-bottom: 40px;
-}
-.image4{
-  position: relative;
-    width: 250px;
-    height: 200px;
-    
-    float: left;
-    padding: 20px;
-    padding-left: 0;
-    padding-bottom: 40px;
-}
 
 
 /* Resposive design */
@@ -416,9 +425,10 @@ header nav ul{
   width: 100%;
   margin-right: 0;
   float: none;
-  margin-top: 0px;
+  margin-top: 10px;
   padding-top: 20px;
-  text-align: center;
+  /* text-align: center; */
+
 }
 header nav ul li{
   padding: 0px 15px;
@@ -442,23 +452,44 @@ main{
   padding: 0;
 }
 
+.portfolio{
+  display: inline;
 
+}
+.image1{
+  float: none;
+
+}
 .text-box1{
-  height: auto;
+  height: 1px;;
   width: 100px;
+  bottom: 0;
+}
+.image2{
+  float: none;
 }
 .text-box2
 {
-  height: auto;
+  height: 1px;
   width: 100px;
+  bottom: 0;
+}
+.image3{
+  float: none;
+
 }
 .text-box3{
-  height: auto;
+  height: 1px;
   width: 100px;
+  bottom: 0;
+}
+.image4{
+float: none;
 }
 .text-box4{
-  height: auto;
+  height: 1px;
   width: 100px;
+  bottom: 0;
 }
 
 p{
@@ -471,4 +502,5 @@ h3{
   font-size:9px;
   padding-bottom:30px;
 }
+
 }
